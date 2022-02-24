@@ -7,7 +7,22 @@ body{
     background-size: 300% 300%;
     animation: colors 25s ease infinite;
 }
-@keyframes colors{
+/*ajuda da turma no slack para ajuste dessa parte a baixo(@kadu)*/
+ img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+
+ }
+
+ h1{
+     font-family: 'MANIFESTO', serif;
+     font-weight: normal;
+     font-size: 30px;
+
+ }
+ @keyframes colors{
     0%{
         background-position:0% 50% ;
 
@@ -21,11 +36,9 @@ body{
 
     }
 }
-/*ajuda da turma no slack para ajuste dessa parte a baixo(@kadu)*/
- img {
-    width: 350px;
-    height: 350px;
-    border-radius: 50%;
-    object-fit: cover;
-
- }
+@font-face {
+    font-family:'MANIFESTO' ;
+    src: url(./MANIFESTO.ttf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
