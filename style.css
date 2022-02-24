@@ -1,0 +1,23 @@
+/*Referencia usada nesse projeto:https://www.youtube.com/watch?v=6zjdx_HO2-g*/
+body{
+    font: monaco 20px;
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient( 45deg,#0f2268, #193498,#113CFC,#1597E5,#69DADB);
+    background-size: 300% 300%;
+    animation: colors 25s ease infinite;
+}
+@keyframes colors{
+    0%{
+        background-position:0% 50% ;
+
+    }
+    50%{
+        background-position:100% 50% ;
+
+    }
+    100%{
+        background-position:0% 50% ;
+
+    }
+}
