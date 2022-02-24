@@ -20,7 +20,13 @@ body{
 
 
 /*estilo do cabeçalho*/
-
+.cabecalho {
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: flex-end;
+padding: 20px 25px;
+}
 
 /*estilo da foto*/
 /*ajuda da turma no slack para ajuste dessa parte a baixo(@kadu)*/
