@@ -21,3 +21,11 @@ body{
 
     }
 }
+/*ajuda da turma no slack para ajuste dessa parte a baixo(@kadu)*/
+ img {
+    width: 350px;
+    height: 350px;
+    border-radius: 50%;
+    object-fit: cover;
+
+ }
