@@ -1,4 +1,14 @@
 /*Referencia usada nesse projeto:https://www.youtube.com/watch?v=6zjdx_HO2-g*/
+
+/*reset css*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+}
+/*estilo do BG*/
 body{
     font: monaco 20px;
     height: 100vh;
@@ -7,6 +17,12 @@ body{
     background-size: 300% 300%;
     animation: colors 25s ease infinite;
 }
+
+
+/*estilo do cabeçalho*/
+
+
+/*estilo da foto*/
 /*ajuda da turma no slack para ajuste dessa parte a baixo(@kadu)*/
  img {
     width: 350px;
@@ -15,7 +31,7 @@ body{
     object-fit: cover;
 
  }
-
+/*estilo do 'nome'*/
  h1{
      font-family: 'MANIFESTO', serif;
      font-weight: normal;
