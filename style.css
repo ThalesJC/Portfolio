@@ -53,6 +53,8 @@ padding: 35px 65px;
     height: 350px;
     border-radius: 50%;
     object-fit: cover;
+    margin: auto;
+    display: block;
     
  }
 
