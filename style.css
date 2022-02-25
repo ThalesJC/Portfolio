@@ -10,7 +10,6 @@
 }
 /*estilo do BG*/
 body{
-    font: monaco 20px;
     height: 100vh;
     width: 100vw;
     background: linear-gradient( 45deg,#0f2268, #193498,#113CFC,#1597E5,#69DADB);
@@ -45,12 +44,9 @@ background-color: rgba(0, 0, 0, 0.2);
 .conteudo {
     border-top: 0.5px solid rgb(175,175,175);
     margin-bottom: 60px;
+    padding: 60px;
 }
 
-.conteudo-primario-nome {
-    text-align: center;
-    padding: 45px;
-}
 /*estilo da foto*/
 /*ajuda da turma no slack para ajuste dessa parte a baixo(@kadu)*/
  img {
@@ -60,15 +56,15 @@ background-color: rgba(0, 0, 0, 0.2);
     object-fit: cover;
     margin: auto;
     display: block;
-    
- }
-
+     }
 
 /*estilo do 'nome'*/
  h1{
      font-family: 'MANIFESTO', serif;
      font-weight: normal;
      font-size: 30px;
+     text-align: center;
+     padding: 60px;
      color: silver;
      text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
 
