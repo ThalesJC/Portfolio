@@ -10,11 +10,10 @@
 }
 /*estilo do BG*/
 body{
-    font: monaco 20px;
     height: 100vh;
     width: 100vw;
     background: linear-gradient( 45deg,#0f2268, #193498,#113CFC,#1597E5,#69DADB);
-    background-size: 300% 300%;
+    background-size: 300% 800%;
     animation: colors 25s ease infinite;
 }
 
@@ -26,6 +25,7 @@ flex-direction: row;
 align-items: center;
 justify-content: flex-end;
 padding: 35px 65px;
+background-color: rgba(0, 0, 0, 0.2);
 }
 
 .cabecalho-menu {
@@ -36,7 +36,7 @@ padding: 35px 65px;
 
 .cabecalho-menu-item {
     font-family: 'Maven Pro', sans-serif;
-    color: rgb(175, 175, 175);
+    color: rgb(204, 204, 204);
     text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
 }
 
@@ -44,6 +44,10 @@ padding: 35px 65px;
 .conteudo {
     border-top: 0.5px solid rgb(175,175,175);
     margin-bottom: 60px;
+    padding: 60px;
+    font-family: 'Maven Pro', sans-serif;
+    color: silver;
+    text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
 }
 
 /*estilo da foto*/
@@ -55,22 +59,50 @@ padding: 35px 65px;
     object-fit: cover;
     margin: auto;
     display: block;
-    
- }
-
-  .conteudo-primario {
-    
-
-  }
-
+}
 
 /*estilo do 'nome'*/
  h1{
      font-family: 'MANIFESTO', serif;
      font-weight: normal;
      font-size: 30px;
+     text-align: center;
+     padding: 60px;
+     color: silver;
+     text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
 
  }
+
+ /* estilo e orientaçao do conteudo central */
+ #conteudo-secundario{
+     padding: 60px;
+     width: 50%;
+     text-align: center;
+     border: 2px solid rgb(175, 175, 175, 0.3);
+     border-radius: 18px;
+     margin: auto;
+     background-color: rgba(200, 200, 200, 0.1);
+     color: silver;
+     text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
+    
+ }
+
+ #habilidades {
+
+     font-size: 20px;
+    padding-top: 30px ;
+    padding-bottom:30px;
+    margin: 30px 0 30px 0;
+     background-color: rgba(200, 200, 200, 0.1);
+ }
+
+/* estilo do rodape */
+ .rodape{
+    font-family: 'Maven Pro', sans-serif;
+    color: silver;
+     text-shadow: 0.1em 0.1em 0.2em rgb(0, 0, 0);
+ }
+
  @keyframes colors{
     0%{
         background-position:0% 50% ;
