@@ -10,8 +10,8 @@
 body{
     height: 100vh;
     width: 100vw;
-    background: linear-gradient( 45deg,#0f2268, #193498,#113CFC,#1597E5,#69DADB);
-    background-size: 300% 800%;
+    background: linear-gradient( 45deg,#000000, #141414,#303030,#555555,#707070);
+    background-size: 100% 500%;
     animation: colors 25s ease infinite;
 }
 
@@ -23,7 +23,7 @@ flex-direction: row;
 align-items: center;
 justify-content: flex-end;
 padding: 35px 65px;
-background-color: rgba(0, 0, 0, 0.2);
+background-color: rgba(0, 0, 0, 0.5);
 }
 
 .cabecalho-menu {
@@ -99,6 +99,9 @@ background-color: rgba(0, 0, 0, 0.2);
  }
 
 /* estilo do rodape */
+.rodape{
+    background-color: rgba(0, 0, 0, 0.5);
+}
  #anim {
      display: flex;
      flex-direction: row;
