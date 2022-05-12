@@ -1,0 +1,110 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+  }
+
+  header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 10px;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+
+  body {
+    display: flex;
+    flex-direction: column;
+    background-image: url("./images/backGroundImg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    color: whitesmoke;
+  }
+
+  #profilePic {
+    width: 25%;
+  }
+
+  .bio {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      max-width: 80%;
+  }
+
+  main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-top: 2px solid whitesmoke;
+  }
+
+  .mainContent {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: transparent;
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+    border-radius: 12px;
+    border: 2px solid white;
+  }
+
+  .card {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      font-size: small;
+      width: 35%;
+      height: 50%;
+      margin: 10px;
+      border: solid 0.5px white;
+      border-radius: 10px;
+      background-color: white;
+      color: black;
+  }
+
+  button {
+      border-radius: 5px;
+      padding: 5px 8px;
+      margin: 5px;
+      background-color: rgb(60, 30, 231);
+      color: white;
+  }
+
+  .packs {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+
+  .cardP {
+      padding: 10px;
+  }
+
+  .posCompra {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 80%;
+  }
+
+  footer {
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #imgFooter {
+    height: 75%;
+  }
