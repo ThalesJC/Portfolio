@@ -3,6 +3,7 @@
     padding: 0;
     border: 0;
     box-sizing: border-box;
+    text-decoration: none;
   }
 
   header {
@@ -72,12 +73,13 @@
       color: black;
   }
 
-  button {
+  a {
       border-radius: 5px;
       padding: 5px 8px;
       margin: 5px;
       background-color: rgb(60, 30, 231);
       color: white;
+
   }
 
   .packs {
